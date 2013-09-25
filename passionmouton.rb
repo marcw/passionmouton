@@ -12,6 +12,6 @@ r = Random.new
 original = "BL"
 original += "A" * r.rand(4..15)
 original += "R" * r.rand(1..4)
-original += "TE"
+original += "T"
 
 Twitter.update(original)
