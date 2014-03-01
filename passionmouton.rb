@@ -10,8 +10,8 @@ end
 r = Random.new
 
 original = "BL"
-original += "A" * r.rand(4..15)
-original += "R" * r.rand(1..4)
+original += "A" * r.rand(5..27)
+original += "R" * r.rand(1..9)
 original += "T"
 
 Twitter.update(original)
